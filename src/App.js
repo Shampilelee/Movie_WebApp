@@ -50,7 +50,7 @@ const App = () => {
                     // THIS SAME ICON SERVES AS A BUTTON
                     onClick={ () => {
                             search_Movies(search_Term);
-                            alert(`Finding ${search_Term} Kindly Wait, Your Response Will Be Ready Soon`);
+                            alert(`Finding ${search_Term.toUpperCase()} Kindly Wait, Your Response Will Be Ready Soon`);
                         }
                     }
                 />
