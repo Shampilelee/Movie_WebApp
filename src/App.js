@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 import SearchIcon from './search.svg';
-import Movie_Card from './MovieCard';
+import MovieCard from './Movie_Card';
 
 
 const API_URL = 'https://www.omdbapi.com?apikey=c41da66d';
@@ -70,7 +70,7 @@ const App = () => {
                             AND WE WILL RENDER A MOVIE CARD COMPONENT 
                         */}
                         {movies.map((movie) => (
-                            <Movie_Card movie={movie}/>
+                            <MovieCard movie={movie}/>
                         ))}
                     </div>
                 ) : (

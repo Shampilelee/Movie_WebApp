@@ -1,7 +1,7 @@
 import React from 'react';
 
 // WE'RE CREATING A COMPONENT
-const Movie_Card = ({ movie }) => {
+const MovieCard = ({ movie }) => {
 
     return (
         <div className='movie'>
@@ -31,4 +31,4 @@ const Movie_Card = ({ movie }) => {
     )
 }
 
-export default Movie_Card;
+export default MovieCard;
